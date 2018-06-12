@@ -1,4 +1,4 @@
-package com.djk.es;
+package com.djk.es.product;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;

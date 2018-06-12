@@ -1,4 +1,4 @@
-package com.djk.es;
+package com.djk.es.util;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;

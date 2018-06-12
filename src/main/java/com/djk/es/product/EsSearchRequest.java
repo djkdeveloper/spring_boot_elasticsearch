@@ -1,4 +1,4 @@
-package com.djk.es;
+package com.djk.es.product;
 
 import lombok.Data;
 import org.apache.lucene.search.join.ScoreMode;

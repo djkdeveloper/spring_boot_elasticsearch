@@ -1,4 +1,4 @@
-package com.djk.es;
+package com.djk.es.product;
 
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 

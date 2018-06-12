@@ -1,4 +1,4 @@
-package com.djk.es;
+package com.djk.es.product;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

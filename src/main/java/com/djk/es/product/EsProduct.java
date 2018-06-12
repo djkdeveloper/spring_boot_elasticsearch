@@ -1,5 +1,7 @@
-package com.djk.es;
+package com.djk.es.product;
 
+import com.djk.es.util.CustomLocalDateTimeDeserializer;
+import com.djk.es.util.CustomLocalDateTimeSerializer;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.Data;
