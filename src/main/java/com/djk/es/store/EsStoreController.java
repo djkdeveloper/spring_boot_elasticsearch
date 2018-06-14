@@ -1,5 +1,6 @@
 package com.djk.es.store;
 
+import com.djk.es.util.SysLog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -29,12 +30,14 @@ public class EsStoreController {
      * @return 返回1
      */
     @PostMapping
+    @SysLog
     public int addStore(@RequestBody List<EsStore> esStores) {
         esStoreService.addStore(esStores);
         return 1;
     }
 
     @PostMapping("/query")
+    @SysLog
     public EsStoreResponse query(@RequestBody EsStoreRequest esStoreRequest) {
         return esStoreService.queryStore(esStoreRequest);
     }
